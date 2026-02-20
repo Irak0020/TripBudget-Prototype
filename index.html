@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TripBudget Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+  
+</head>
+<body>
+
+<header class="navbar">
+    <h1 class="logo">TripBudget</h1>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#results">Trips</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Affordable Travel. No Hidden Fees.</h2>
+        <p>Find trips with total cost shown upfront.</p>
+        <a href="#search" class="btn">Start Searching</a>
+    </div>
+</section>
+
+<section id="search" class="search-section">
+    <h2>Search Trips</h2>
+    <form id="searchForm">
+        <input type="text" placeholder="Destination" required>
+        <input type="date" required>
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+<section id="results" class="results-section">
+    <h2>Available Trips</h2>
+
+    <div class="card-container">
+
+        <div class="trip-card">
+            <h3>Toronto Getaway</h3>
+            <p>Flight + Hotel Included</p>
+            <p class="price">$450 Total</p>
+            <button class="btn">Book Now</button>
+        </div>
+
+        <div class="trip-card">
+            <h3>New York Weekend</h3>
+            <p>Flight + 3 Nights Hotel</p>
+            <p class="price">$620 Total</p>
+            <button class="btn">Book Now</button>
+        </div>
+
+        <div class="trip-card">
+            <h3>Miami Beach Escape</h3>
+            <p>All Inclusive Package</p>
+            <p class="price">$890 Total</p>
+            <button class="btn">Book Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="confirmation">
+    <h2>Booking Workflow</h2>
+    <p>Select a trip → Confirm total cost → Secure booking</p>
+</section>
+
+<footer>
+    <p>© 2026 TripBudget Prototype</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
